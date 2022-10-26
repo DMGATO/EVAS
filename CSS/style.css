@@ -1,0 +1,74 @@
+.div{
+    display: grid;
+    grid-template-areas:
+    "barra header header"
+    "barra video video"
+    "barra personajes personajes"
+    "footer footer footer";
+    grid-template-rows: 100px 1fr 1fr 75px;
+    grid-template-columns: 20% auto 15%;
+}
+
+h1 img{
+    max-width: 15%;
+    max-height: 0.1%;
+}
+
+ul{    
+    text-decoration: none;
+    margin: 1.5% 1.5%;
+    display: flex;
+}
+
+div nav ul li{
+    width: 100%;
+    list-style: none;
+    display: inline-block;
+    margin: 12px;
+    border: 1px solid green;
+    border-radius: 4px;
+    background-color: aqua;    
+ }
+
+p{
+    font-size: larger;
+    font-style: oblique;
+}
+
+h1{
+    color:blueviolet;
+    margin: 1.2%; 
+} 
+
+main div{
+    background-color: rgba(10, 200, 25, alpha);
+    border: 2px solid red;
+    border-radius: 25px;
+}
+
+h2{
+    color: aquamarine;
+}
+
+.rr__ss{
+    font-style: normal;
+    color: blue;
+}
+
+ul{
+    list-style: none;
+}
+body{
+    background-image: url(../img/fondo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin-bottom: 50px;
+}
+footer div{
+    position:fixed;
+    bottom: 25px;
+    right: 25px;
+}
