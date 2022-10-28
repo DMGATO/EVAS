@@ -1,13 +1,4 @@
-.div{
-    display: grid;
-    grid-template-areas:
-    "barra header header"
-    "barra video video"
-    "barra personajes personajes"
-    "footer footer footer";
-    grid-template-rows: 100px 1fr 1fr 75px;
-    grid-template-columns: 20% auto 15%;
-}
+
 
 h1 img{
     max-width: 15%;
